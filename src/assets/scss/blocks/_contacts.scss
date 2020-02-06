@@ -1,0 +1,40 @@
+.contacts__title {
+   padding: 50px 0;
+   font-size: 46px;
+   text-align: center;
+}
+
+.contacts__list {
+   display: flex;
+   max-width: 600px;
+   margin: 0 auto 150px;
+   border-radius: 5px;
+   text-align: center;
+   justify-content: space-between;
+}
+
+.contacts__item {
+   padding: 15px;
+   margin-left: 50px;
+}
+
+.contacts__social {
+   position: relative;
+   color: #ffffff;
+   font-size: 21px;
+   font-weight: 600;
+   transition: all .1s ease;
+
+   img {
+      position: absolute;
+      top: -9px;
+      left: -62px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      border: 2px solid #ffffff;
+   }
+
+   &:hover {
+      border-bottom: 3px solid #ffffff;
+   }
+}

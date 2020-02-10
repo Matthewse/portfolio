@@ -2,7 +2,7 @@
    position: absolute;
    top: 33%;
    max-width: 900px;
-   margin-left: 90px;
+   padding: 0 90px;
 }
 
 .title__hello,
@@ -11,7 +11,7 @@
 .scroll-down {
    opacity: 0;
    visibility: hidden;
-   transition: 3s ease;
+   transition: opacity 3s ease;
 }
 
 .title__hello {
@@ -51,4 +51,41 @@
 
 .scroll-down-visible {
    transition-delay: 5s;
+}
+
+@media(max-width: 768px) {
+
+   .title {
+      top: 25%;
+      padding: 0 35px;
+   }
+
+   .title__hello {
+      font-size: 44px;
+   }
+
+   .title__text {
+      font-size: 34px;
+      line-height: 45px;
+   }
+
+   .title__description {
+      font-size: 20px;
+      line-height: 35px;
+   }
+}
+
+@media(max-width: 425px) {
+
+   .title__hello {
+      font-size: 40px;
+   }
+
+   .title__text {
+      font-size: 30px;
+   }
+
+   .title__description {
+      font-size: 16px;
+   }
 }

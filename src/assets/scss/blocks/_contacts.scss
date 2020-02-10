@@ -38,3 +38,15 @@
       border-bottom: 3px solid #ffffff;
    }
 }
+
+@media (max-width: 768px) {
+
+   .contacts__list {
+      flex-direction: column;
+   }
+
+   .contacts__item {
+      margin-left: 55px;
+      margin-bottom: 15px;
+   }
+}

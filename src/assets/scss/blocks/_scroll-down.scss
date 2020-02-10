@@ -43,3 +43,14 @@
       transform: rotate(45deg) translate(20px, 20px);
    }
 }
+
+@media(max-width: 425px) {
+
+   .scroll-down {
+
+      span {
+         width: 20px;
+         height: 20px;
+      }
+   }
+}

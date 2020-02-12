@@ -42,7 +42,7 @@
    justify-content: center;
    flex-direction: column;
    width: 100%;
-   height: 100%;
+   height: 99%;
    background-color: transparentize(#000000, 0.4);
    opacity: 0;
    transition: all .3s ease-in-out;
@@ -77,4 +77,24 @@
 .works__image-wrapper {
    max-width: 750px;
    height: auto;
+}
+
+@media(max-width: 425px) {
+
+   .works__link {
+      margin-bottom: 250px;
+   }
+}
+
+@media(max-width: 320px) {
+
+   .works__link {
+      margin-bottom: 200px;
+   }
+
+   .works__caption {
+      a {
+         font-size: 18px;
+      }
+   }
 }

@@ -89,3 +89,10 @@
       font-size: 16px;
    }
 }
+
+@media(max-width: 320px) {
+
+   .title {
+      top: 22%;
+   }
+}
